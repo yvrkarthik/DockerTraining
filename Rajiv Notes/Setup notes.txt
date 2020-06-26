@@ -1,0 +1,16 @@
+
+================================================
+Linux machines Notes:
+1. when a Ubuntu VM is created in azure make sure to turn it off after usage.
+2. Never clone the github repo on the machines related to work
+
+
+
+================================================
+User permissions Notes:
+1. To prevent the usage of sudo on the terminal when executing the docker commands
+    a. Login via ssh
+    b. run sudo su - to login elevate the permissions
+    c. Check the current root access is configured or not by command grep root /etc/shadow (LOCK means  root access is disabled (default))
+    d. Enable root access by command passwd and your should define to root password for now
+    e. Check the current root access status again by command grep root /etc/shadow
