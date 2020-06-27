@@ -14,3 +14,5 @@ User permissions Notes:
     c. Check the current root access is configured or not by command grep root /etc/shadow (LOCK means  root access is disabled (default))
     d. Enable root access by command passwd and your should define to root password for now
     e. Check the current root access status again by command grep root /etc/shadow
+
+

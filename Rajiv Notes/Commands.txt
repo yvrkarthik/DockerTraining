@@ -1,0 +1,15 @@
+Please read the readme in labs for the cheat sheet.
+
+================================================
+Docker commands:
+
+-> docker stats or docker stats <container id>
+    -> gives the info regarding the memory usage of the containers
+-> docker top <container ID>
+    -> gives the information regarding the top memory usage process id
+-> docker system df
+    -> gives the information regarding the system stats i.e. space used etc..
+-> docker logs <containerId>
+    -> This shows us the logs in the current container
+-> docker logs -f <containerid>
+    -> This shows the continuous stream of logs in the console
