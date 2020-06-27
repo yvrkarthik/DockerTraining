@@ -26,5 +26,9 @@ Install VS Code in Ubuntu:
 3. sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
 4. sudo apt update
 5. sudo apt install code
-6. sudo apt update
-7. sudo apt upgrade
+6. sudo apt install --assume-yes libx11-xcb1 libasound2 x11-apps libice6 libsm6 libxaw7 libxft2 libxmu6 libxpm4 libxt6 x11-apps xbitmaps
+7. sudo apt update
+8. sudo apt upgrade
+
+Running VS Code:
+1. sudo code --user-data-dir="~/.vscode-root"
