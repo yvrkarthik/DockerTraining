@@ -2,7 +2,10 @@ Please read the readme in labs for the cheat sheet.
 
 ================================================
 Docker commands:
-
+-> docker exec -it <containerId>
+    -> enter into the container to make changes
+-> docker exec <containerId> ls/cat filename
+    -> see the container components
 -> docker stats or docker stats <container id>
     -> gives the info regarding the memory usage of the containers
 -> docker top <container ID>
@@ -13,3 +16,5 @@ Docker commands:
     -> This shows us the logs in the current container
 -> docker logs -f <containerid>
     -> This shows the continuous stream of logs in the console
+-> docker rm -f `docker ps -aq`
+    -> removes all the containers in a single shot
